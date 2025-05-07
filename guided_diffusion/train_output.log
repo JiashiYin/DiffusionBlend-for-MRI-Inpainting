@@ -1,0 +1,119 @@
+Logging to /scratch/bcog/jyin15/DiffBlend/ckpt
+TRAINING START 2024-12-15 14:36:08.430026
+args: Namespace(data_dir='/scratch/bcog/jyin15/DiffBlend/preprocessed_training_data', log_dir='/scratch/bcog/jyin15/DiffBlend/ckpt', schedule_sampler='uniform', lr=0.0001, weight_decay=0.0, lr_anneal_steps=0, batch_size=1, microbatch=-1, ema_rate='0.9999', log_interval=1000, save_interval=5000, resume_checkpoint='/scratch/bcog/jyin15/DiffBlend/ckpt/savedmodel432000.pt', use_fp16=False, fp16_scale_growth=0.001, model_type='diffblend', patch_size=3, image_size=256, num_channels=128, num_res_blocks=2, num_heads=1, num_heads_upsample=-1, num_head_channels=-1, attention_resolutions='16', channel_mult='', dropout=0.0, class_cond=False, use_checkpoint=False, use_scale_shift_norm=False, resblock_updown=False, use_new_attention_order=False, learn_sigma=True, diffusion_steps=1000, noise_schedule='linear', timestep_respacing='', use_kl=False, predict_xstart=False, rescale_timesteps=False, rescale_learned_sigmas=False)
+creating model and diffusion...
+creating data loader...
+training...
+resume model
+loading model from checkpoint: /scratch/bcog/jyin15/DiffBlend/ckpt/savedmodel432000.pt...
+-------------------------
+| grad_norm  | 0.0104   |
+| param_norm | 274      |
+| samples    | 4.32e+05 |
+| step       | 4.32e+05 |
+-------------------------
+0.0012125883149565198
+saving model 0...
+saving model 0.9999...
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+-------------------------
+| grad_norm  | 0.0164   |
+| param_norm | 274      |
+| samples    | 4.33e+05 |
+| step       | 4.33e+05 |
+-------------------------
+0.002648357043215128
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+-------------------------
+| grad_norm  | 0.0142   |
+| param_norm | 274      |
+| samples    | 4.34e+05 |
+| step       | 4.34e+05 |
+-------------------------
+0.0029475720271057073
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+-------------------------
+| grad_norm  | 0.0186   |
+| param_norm | 275      |
+| samples    | 4.35e+05 |
+| step       | 4.35e+05 |
+-------------------------
+0.001717877054516066
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+-------------------------
+| grad_norm  | 0.0148   |
+| param_norm | 275      |
+| samples    | 4.36e+05 |
+| step       | 4.36e+05 |
+-------------------------
+0.0020930876878674097
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+-------------------------
+| grad_norm  | 0.0145   |
+| param_norm | 275      |
+| samples    | 4.37e+05 |
+| step       | 4.37e+05 |
+-------------------------
+0.0017956609563771053
+saving model 0...
+saving model 0.9999...
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+-------------------------
+| grad_norm  | 0.0144   |
+| param_norm | 275      |
+| samples    | 4.38e+05 |
+| step       | 4.38e+05 |
+-------------------------
+0.004518793484567141
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+-------------------------
+| grad_norm  | 0.017    |
+| param_norm | 275      |
+| samples    | 4.39e+05 |
+| step       | 4.39e+05 |
+-------------------------
+0.0014163100135579044
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+-------------------------
+| grad_norm  | 0.0178   |
+| param_norm | 275      |
+| samples    | 4.4e+05  |
+| step       | 4.4e+05  |
+-------------------------
+0.0016435982576558671
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+Reached end of dataset, reinitializing data loader
+-------------------------
+| grad_norm  | 0.0142   |
+| param_norm | 275      |
+| samples    | 4.41e+05 |
+| step       | 4.41e+05 |
+-------------------------
+0.0014366521962017487
+Reached end of dataset, reinitializing data loader
